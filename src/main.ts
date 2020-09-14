@@ -8,6 +8,7 @@ import { environment } from './environments/environment';
 import 'core-js/es/reflect';
 import 'core-js/stable/reflect';
 import 'core-js/features/reflect';
+import 'core-js/proposals/reflect-metadata';
 
 if (environment.production) {
     enableProdMode();
